@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   max-width: 1440px; 
+}
+
+.wrapper{
+    border-bottom: 1px solid rgba(57, 72, 103, 0.7);
+border-radius: 20px 20px 0 0;
+width: 380px;
+height: 217px;
+background: #394867;
+margin: 100px auto;
+
+}
+.card{
+    border-radius: 20px;
+padding: 16px;
+width: 380px;
+height: 194px;
+background: #f6f9fa;
+padding: 16px;
+}
+.wrapper img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 28px;
+    margin-bottom: 28px;
+}
+.card p{
+   font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+color: #1f2739;
+
+}
+.card input{
+    border: 1px solid #394867;
+border-radius: 8px;
+padding: 8px 0px;
+width: 348px;
+height: 36px;
+margin-top: 10px;
+}
+.card button{
+border: 1px solid #394867;
+border-radius: 8px;
+padding: 8px 0px;
+width: 348px;
+height: 36px;
+background: #394867;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: #fff;
+margin-top: 10px;
+}
+body{
+    position: relative;
+}
+
+.teppa{
+  position: absolute;
+  left: 148px;
+  top: -50px;
+}
+.contact{
+    position: absolute;
+    right: 0;
+    top: 101px;
+}
+.pass{
+    position: absolute;
+    top: 588px;
+    left: 349px;
+}
+@media (max-width:400px){
+    img{
+        display: none;
+    }
+    .wrapper{
+        margin-top: 200px;
+    }
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
